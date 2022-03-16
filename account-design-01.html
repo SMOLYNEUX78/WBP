@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>WHOLE BUILD PROFILE</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/jpg" href="../img/thumb.jpg"/>
+  <link href="img-01/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib-01/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib-01/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib-01/animate/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <!-- Main Stylesheet File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- JAVA (CAN BE PUT IN ITS OWN FOLDER) -->
+<script type="text/javascript">
+    function goToNewPage()
+    {
+        var url = document.getElementById('list').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
+</script>
+
+<script src="./src/qrCodeScanner.js"></script>
+
+</head>
+
+<body>
+
+<div class="parent">
+<h1><a href="index.html">Whole <br>Build <br>Profile</a></h1>
+<h2>Building efficiency</h2>
+
+
+<div class="child">
+<h3> <i class="fa fa-map-marker"></i><a href="profile.html">Check building</a><br><br><br><br><br>
+<h11><br>
+<h11><a>create profile / DESIGN </a><br>
+
+</div>
+</div>
+<div class="box1"    class="w3-grey">
+  <div class="w3-green" style="height:100%;width:12%"><h10>12% complete</h10></div>
+
+<div class="row1">
+  <div class="column1">
+    <h12>  <label for="uname"><b>Forename</b></label>
+      <input type="text" placeholder="" name="uname" required></h12>
+  </div>
+
+  <div class="column1">
+    <h12>  <label for="uname"><b>Surname</b></label>
+      <input type="text" placeholder="" name="uname" required></h12>
+  </div>
+
+  <div class="column1">
+    <h12>  <label for="uname"><b>ARB No.</b></label>
+      <input type="text" placeholder="(069580G)" name="uname" required></h12>
+  </div>
+
+<div class="column1" class="dropdown">
+   <h12> Company Name<br>
+<input type="text" list="Design-Company" placeholder="Architect Best Practice"/>
+<datalist id="Design-Company">
+  <option>Associate Architecture</option>
+  <option>Architype</option>
+  <option>Architects Are Us</option>
+  <option>Architectuality</option>
+</datalist></h12>
+  </div>
+
+ <div class="column1">
+    <h12><label for=""><b>Address</b></label>
+      <input type="text" placeholder="" name="" required></h12>
+  </div> 
+
+<div class="column1">
+    <h12><label for="">Company No.</label>
+      <input type="text" placeholder="" name="" required></h12>
+  </div>
+
+<div class="column1">
+    <h12><label for="">E mail</label>
+      <input type="text" placeholder="" name="" required></h12>
+  </div>
+
+
+  <div class="column1">
+    <h12>Upload Profile Image<form action="/action_page.php">
+  <input type="file" id="myFile" name="filename">
+</form></h12> 
+  </div> 
+
+ <div class="column1" class="dropdown">
+<form>  
+  <h12> <label for="building-stage">Green Cert</label>
+<select name="list" id="list" accesskey="target">
+    <option value="account-design.html">Passivhaus</option>
+    <option value="account-build.html">AECB</option>
+    <option value="account-performance.html">BRE</option>
+    <option value="account-performance.html">LEED</option>
+  </select></h12> 
+
+<br>
+    <h12>Scan Cert<img src="assets/img/scan-solid-512.png" id="image1"></h12> 
+  </div> 
+
+<br><br><br><br>
+<a href="profile-design.html"><input type=button value="Save Profile">
+    </div>
+  </form>
+
+</div>
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
